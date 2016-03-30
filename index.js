@@ -10,7 +10,7 @@ module.exports = {
   filter: require('./src/streams/filter'),
   modifiers: require('./src/lib/modifiers').map,
 
-  env: env,
-  expressConfig: require('./src/config/' + env.NODE_ENV)
+  env: env//,
+  //expressConfig: require('./src/config/' + env.NODE_ENV)
 
 };
